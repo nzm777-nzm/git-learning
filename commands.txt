@@ -12,3 +12,13 @@ git add -A [to add all untracked files to staging area]
 
 git commit -m "commit message" [to commit with discriptive message]
 
+git remote add remote_name path 
+
+eg: git remote add origin https://github.com/nzm777-nzm/git-learning.git
+
+git push remote_name branch
+
+eg: git push origin master
+
+git branch [to list all branches]
+

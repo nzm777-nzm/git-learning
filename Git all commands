@@ -1,0 +1,65 @@
+🪜 1. Initialize Git in your project folder
+git init
+
+
+This starts a new Git repository inside your project.
+
+🧾 2. Add all files to Git tracking
+git add .
+
+
+Adds all files in your folder to be tracked by Git.
+
+🧍 3. Commit your changes
+git commit -m "Initial commit"
+
+
+Saves your added files with a message describing the change.
+
+🌐 4. Create a new repository on GitHub
+
+Go to https://github.com/new
+
+Give it a name (example: my-project)
+
+Choose Public (so everyone can see it)
+
+Don’t add README (since you already have one locally)
+
+🔗 5. Connect your local repo to GitHub
+
+Copy the repo URL (HTTPS format), then run:
+
+git remote add origin https://github.com/USERNAME/REPO_NAME.git
+
+
+Example:
+
+git remote add origin https://github.com/nzm-777/my-project.git
+
+🚀 6. Push your project to GitHub
+git branch -M main
+git push -u origin main
+
+
+This pushes your code to the GitHub main branch.
+
+🧭 7. (Later) When you make changes:
+git add .
+git commit -m "Updated feature"
+git push
+
+🧹 8. Check status and logs
+git status
+git log
+
+🪣 9. Clone any repository (if you want to download others’ projects)
+git clone https://github.com/USERNAME/REPO_NAME.git
+
+✅ Summary of All Commands
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/USERNAME/REPO_NAME.git
+git push -u origin main
